@@ -1,0 +1,47 @@
+programa test;
+
+	comienza
+		declarar b entero;
+		declarar a entero;
+		declarar div real;
+		declarar mult entero;
+		declarar i entero;
+		declarar txt texto;
+		
+		 b := 8;
+		 a := 3;
+		 div := 0;
+		 mult := 5;
+		 i  := 10;
+	
+		
+		imprimir("Hola");
+		
+		
+		
+		b := i - a;
+		
+		a := 5 + b;
+		mult := i * b;
+		
+	
+			:[Comentario]:
+			para i := 0 hacia 99 
+				si (b $<=$ 10) entonces
+					comienza
+						:[Comentario]:
+					  a := b + 1;
+					  div := 66;
+					fin
+				siNo
+					comienza 
+						i := 1e+10;
+						b := b + 2;
+					fin
+					
+		div := (i / b) / 10;
+		
+    fin
+    
+	
+fin_programa;
